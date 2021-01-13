@@ -7331,10 +7331,10 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 #colorlib-aside {
-  padding-top: 3em;
+  padding-top: 1em;
   padding-bottom: 40px;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
   width: 22%;
   position: fixed;
   bottom: 0;
@@ -7380,11 +7380,13 @@ h1, h2, h3, h4, h5,
   #colorlib-aside #colorlib-main-menu ul {
     margin: 0;
     padding: 0; }
+
+    /* Menu lateral */
     #colorlib-aside #colorlib-main-menu ul li {
       margin: 0 0 0 0;
       padding: 0;
       list-style: none;
-      font-size: 28px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 1.5; }
       #colorlib-aside #colorlib-main-menu ul li a {
@@ -7915,7 +7917,8 @@ h1, h2, h3, h4, h5,
       margin-top: -4vw; }
       .project .img .text h2 {
         text-transform: uppercase;
-        font-size: 8vw;
+        font-size: 6vw;
+        /* tamanho nome texto */
         font-weight: 600;
         line-height: 1;
         -moz-transition: all 0.3s ease;
@@ -7929,7 +7932,7 @@ h1, h2, h3, h4, h5,
         color: #fff; }
 
 .btn-custom-2 {
-  font-size: 7vw;
+  font-size: 3vw;
   font-weight: 600;
   color: #000000;
   text-transform: uppercase; }
@@ -8008,8 +8011,9 @@ textarea.form-control {
 .about-author .desc h3 {
   font-size: 20px; }
 
+  /* Distancia Ver todos os textos */
 .ftco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   position: relative; }
   @media (max-width: 991.98px) {
     .ftco-section {
@@ -8033,7 +8037,8 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #242423;
-  padding: 6em 0; }
+  opacity: 30%;
+  /* padding: 1em 0;  */}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
