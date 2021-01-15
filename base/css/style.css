@@ -8040,9 +8040,10 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 14px;
-  background: #242423;
-  opacity: 30%;
-  /* padding: 1em 0;  */}
+  background: #FFF;
+  opacity: 80%;
+  /* opacity: 30%;
+  padding: 1em 0;  */}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
