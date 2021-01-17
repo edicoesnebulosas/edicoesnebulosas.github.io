@@ -7790,7 +7790,7 @@ h1, h2, h3, h4, h5,
     .btn.btn-primary:hover {
       border: 1px solid #636363;
       background: transparent;
-      color: #636363f; }
+      color: #636363; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #636363;
       background: transparent;
