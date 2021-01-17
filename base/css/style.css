@@ -5,6 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --marcos: rgb(248, 226, 226);
+  --link: #171010;
+  --link2: #c2c2c2;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -7314,7 +7317,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ccb78f; }
+  color: #3d3d3d; }
   a:hover, a:focus {
     text-decoration: none;
     color: #ccb78f;
@@ -7392,6 +7395,10 @@ h1, h2, h3, h4, h5,
     /*  line-height: 1.5;
      entre linhass */
     }
+
+
+
+    /* Menu links */
       #colorlib-aside #colorlib-main-menu ul li a {
         color: black;
         text-decoration: none;
@@ -7776,20 +7783,21 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #ccb78f;
-    border: 1px solid #ccb78f;
+    /* mudei */
+    background:#636363;
+    border: 1px solid #636363;
     color: #fff; }
     .btn.btn-primary:hover {
-      border: 1px solid #ccb78f;
+      border: 1px solid #636363;
       background: transparent;
-      color: #ccb78f; }
+      color: #636363f; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #ccb78f;
+      border: 1px solid #636363;
       background: transparent;
-      color: #ccb78f; }
+      color: #636363; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #ccb78f;
+        background: #636363;
         color: #fff; }
   .btn.btn-white {
     background: #fff;
@@ -7797,7 +7805,7 @@ h1, h2, h3, h4, h5,
     color: #000000; }
     .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active {
       border: 1px solid #fff;
-      color: #ccb78f; }
+      color: #636363; }
     .btn.btn-white.btn-outline-white {
       border-color: rgba(255, 255, 255, 0.8);
       background: none;
@@ -8195,7 +8203,8 @@ textarea.form-control {
   background: #f8f9fa !important; }
 
 .bg-primary {
-  background: #ccb78f !important; }
+  background: #dfd7c8 !important; }
+  /* Modificado */
 
 .image-popup {
   cursor: -webkit-zoom-in;
