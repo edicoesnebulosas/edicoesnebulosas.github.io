@@ -105,3 +105,18 @@ a:focus {
 .casa{
   color: var(--link2);
 }
+
+.circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
