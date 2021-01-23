@@ -120,3 +120,9 @@ a:focus {
   bottom: 0;
   width: 100%;
 }
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(148, 224, 247);
+  border-radius: 3%;
+}
