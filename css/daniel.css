@@ -1,0 +1,128 @@
+#aldyr {
+  max-width: 80%;
+  min-width: 40%;
+  padding-left: 10%;
+}
+
+#apoio p {
+  color: #000000;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+}
+
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  /* Fundo */
+  /* background: ; */
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+body.offcanvas {
+  overflow-x: hidden;
+}
+
+body.offcanvas #colorlib-aside {
+  -moz-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  width: 270px;
+  background: #fff;
+  z-index: 999;
+  position: fixed;
+}
+
+body.offcanvas #colorlib-main,
+body.offcanvas .colorlib-nav-toggle {
+  top: 0;
+  -moz-transform: translateX(270px);
+  -webkit-transform: translateX(270px);
+  -ms-transform: translateX(270px);
+  -o-transform: translateX(270px);
+  transform: translateX(270px);
+  
+}
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #908fcc;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #171010;
+  outline: none !important;
+}
+
+
+.ftco-intro h1 {
+  /* Edições nebulosas */
+  font-size: 8.8vw;
+  font-weight: 700;
+  line-height: 1;
+  display: block;
+}
+
+
+.ftco-intro h3 {
+  /* Edições nebulosas */
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 1;
+  display: block;
+}
+
+#colorlib-main > section > div > div > div > div > div{
+  padding-left: 0px;
+}
+
+.ajuste{
+  margin-left: -20px;
+}
+
+.casa{
+  color: var(--link2);
+}
+
+.circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 15vw;
+  height: 15vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(148, 224, 247);
+  border-radius: 3%;
+}
