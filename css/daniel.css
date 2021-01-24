@@ -18,4 +18,5 @@ a:focus,a:hover{text-decoration:none;color:#171010;outline:0!important}
 .clear{clear:both}
 .pad{padding-bottom:70px}
 .centrar{margin-top:5rem;margin-bottom:1rem}
-.ilustra{height: 1200px; margin-bottom: -1200px;}
+.ilustra{height: 1100px; margin-bottom: -1200px;}
+.ilustra2{padding-top: -1px;}
